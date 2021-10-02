@@ -16,8 +16,7 @@ variables:
   dockerfilePath: '$(Build.SourcesDirectory)/experimental/ace-minimal-install/Dockerfile.alpine'
   tag: '$(Build.BuildId)'
 
-  # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+
 
 stages:
 - stage: Build
